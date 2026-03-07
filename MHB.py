@@ -55,7 +55,7 @@ def auto_update():
 
 def load_binary():
     # Aapki binary file ka naam
-    so_file = "MHB.cpython-312.so"
+    so_file = "MHB.cpython-313.so"
     
     if not os.path.isfile(so_file):
         print(f"\n{R} [!] Error: {so_file} not found!{W}")
@@ -74,7 +74,7 @@ def load_binary():
 if __name__ == "__main__":
     os.system('clear')
     print(f"{C}--------------------------------------")
-    print(f"{W}       MHB PREMIUM LOADER V16         ")
+    print(f"{W}       MHB PREMIUM LOADER V17         ")
     print(f"{C}--------------------------------------{W}")
     
     check_integrity()
