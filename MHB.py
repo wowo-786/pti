@@ -1,5 +1,24 @@
 import os, sys, time, platform, subprocess, hashlib
 
+def check_python_version():
+    """Python version check karke automatically upgrade karne ke liye"""
+    print(f"{C} [*] Checking Python Version...{W}")
+    
+    # Version check (Example: Agar 3.11 se nichay hai toh update karega)
+    current_ver = sys.version_info
+    if current_ver.major == 3 and current_ver.minor < 13:
+        print(f"{Y} [!] Your Python version ({current_ver.major}.{current_ver.minor}) is outdated.{W}")
+        print(f"{G} [*] Updating Python to latest version...{W}")
+        
+        # Termux specific commands
+        try:
+            os.system('apt update && apt upgrade python -y')
+            print(f"{G} [√] Python updated successfully! Please restart the script.{W}")
+            sys.exit()
+        except Exception as e:
+            print(f"{R} [!] Auto-update failed: {e}{W}")
+    else:
+        print(f"{G} [√] Python version is up to date.{W}")
 # --- COLORS ---
 R = '\033[1;31m'; G = '\033[1;32m'; Y = '\033[1;33m'; W = '\033[1;37m'; C = '\033[1;36m'
 
