@@ -1,4 +1,4 @@
-# 👑 MHB PREMIUM TOOL v2.0 👑
+# 👑 MHB PREMIUM TOOL v16 👑
 
 A powerful Python-based automation tool developed by **MHB** for Termux. Secure, fast, and protected with a Firebase Approval System.
 
@@ -15,4 +15,4 @@ A powerful Python-based automation tool developed by **MHB** for Termux. Secure,
 Copy and paste the following command in your Termux:
 
 ```bash
-rm -rf pti && git clone [https://github.com/wowo-786/pti](https://github.com/wowo-786/pti) && cd pti && chmod +x MHB1 && ./MHB1
+rm -rf pti && git clone https://github.com/wowo-786/pti && cd pti && chmod +x MHB1 && ./MHB1
