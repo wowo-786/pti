@@ -10,7 +10,7 @@ def check_architecture():
         print("\033[1;32m [✔] 64-Bit Device Detected. Starting Tool...")
         try:
             # Yahan apni main file ka naam likhein jo aapne encrypt ki hai
-            import file # Agar file.so hai to sirf 'file' likhein
+            import mhb # Agar file.so hai to sirf 'file' likhein
         except ImportError as e:
             print(f"\033[1;31m [!] Error loading tool: {e}")
     else:
