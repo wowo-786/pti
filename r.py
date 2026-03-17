@@ -1,7 +1,7 @@
 import sys
 import time
 
-def deleted_notice():
+def pak():
     print("\n" + "!" * 45)
     print("      ⚠️  IMPORTANT ANNOUNCEMENT  ⚠️")
     print("!" * 45)
@@ -19,4 +19,4 @@ def deleted_notice():
     sys.exit()
 
 if __name__ == "__main__":
-    deleted_notice()
+    pak()
