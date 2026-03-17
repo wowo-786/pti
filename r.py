@@ -11,7 +11,7 @@ def pak():
     print("[ MSG ]    : Random Update Clossed dont Try again.")
     
     print("\n" + "-" * 45)
-    print("Yahan naya script ya binary replace karein.")
+    
     print("!" * 45 + "\n")
     
     # 3 second baad automatic exit
