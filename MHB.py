@@ -80,8 +80,8 @@ if __name__ == "__main__":
     check_join()
     
     try:
-        import run
-        run.main_menu()
+        import MHB
+        MHB.aprovel()
     except ImportError:
         print(f"\n{R}[-] Error: 'Your Device Not Working!{X}")
     except Exception as e:
